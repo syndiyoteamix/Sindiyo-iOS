@@ -10,10 +10,25 @@ import Foundation
 
 class UserController {
     
+    let defaults = NSUserDefaults.standardUserDefaults()
+    
     static let sharedInstance = UserController()
+    var currentUser: User?
     
-    var currentUser: User = User()
+    func updateUserInfo() {
+        
+    }
     
+    func updateMedicalInformation(medicalInfo: MedicalInformation) {
+        
+    }
     
+    func addDoctors(doctors: [Doctor]) {
+        currentUser?.doctorsArray.appendContentsOf(doctors)
+    }
+    
+    func deleteDoctor() {
+        
+    }
     
 }

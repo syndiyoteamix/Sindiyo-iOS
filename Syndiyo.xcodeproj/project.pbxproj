@@ -20,6 +20,7 @@
 		F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE61D3CFC0D007CEE3E /* User.swift */; };
 		F3846EED1D3CFC75007CEE3E /* MedicalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EEC1D3CFC75007CEE3E /* MedicalRecord.swift */; };
 		F3846EEF1D3D02CE007CEE3E /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EEE1D3D02CE007CEE3E /* UserController.swift */; };
+		F3846F1B1D3D219A007CEE3E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3846F1A1D3D219A007CEE3E /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F3846EE61D3CFC0D007CEE3E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F3846EEC1D3CFC75007CEE3E /* MedicalRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalRecord.swift; sourceTree = "<group>"; };
 		F3846EEE1D3D02CE007CEE3E /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		F3846F1A1D3D219A007CEE3E /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				4E187B841D3CC92200864DCB /* LaunchScreen.storyboard */,
 				4E187B7F1D3CC92200864DCB /* Main.storyboard */,
+				F3846F1A1D3D219A007CEE3E /* Onboarding.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				4E187B861D3CC92200864DCB /* LaunchScreen.storyboard in Resources */,
 				4E187B831D3CC92200864DCB /* Assets.xcassets in Resources */,
 				4E187B811D3CC92200864DCB /* Main.storyboard in Resources */,
+				F3846F1B1D3D219A007CEE3E /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
