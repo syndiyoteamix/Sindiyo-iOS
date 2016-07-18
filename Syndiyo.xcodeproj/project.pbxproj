@@ -56,13 +56,14 @@
 		4E187B7A1D3CC92200864DCB /* Syndiyo */ = {
 			isa = PBXGroup;
 			children = (
+				F3846EE31D3CFB0E007CEE3E /* Model Controllers */,
+				F3846EE21D3CFAA1007CEE3E /* View Controllers */,
+				F3846EE01D3CFA93007CEE3E /* Models */,
 				4E187B7B1D3CC92200864DCB /* AppDelegate.swift */,
 				F3846EDF1D3CFA2F007CEE3E /* UI */,
 				4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */,
 				4E187B821D3CC92200864DCB /* Assets.xcassets */,
-				4E187B841D3CC92200864DCB /* LaunchScreen.storyboard */,
 				4E187B871D3CC92200864DCB /* Info.plist */,
-				4E187B8D1D3CD0D300864DCB /* TabBarController.swift */,
 			);
 			path = Syndiyo;
 			sourceTree = "<group>";
@@ -70,9 +71,32 @@
 		F3846EDF1D3CFA2F007CEE3E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4E187B841D3CC92200864DCB /* LaunchScreen.storyboard */,
 				4E187B7F1D3CC92200864DCB /* Main.storyboard */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		F3846EE01D3CFA93007CEE3E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F3846EE21D3CFAA1007CEE3E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E187B8D1D3CD0D300864DCB /* TabBarController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F3846EE31D3CFB0E007CEE3E /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
