@@ -8,7 +8,7 @@
         <!--MyRecords-->
         <scene sceneID="twr-pj-uFb">
             <objects>
-                <viewController id="Xd6-sx-KGG" userLabel="MyRecords" sceneMemberID="viewController">
+                <viewController title="Records" id="Xd6-sx-KGG" userLabel="MyRecords" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CDa-Gx-dzU"/>
                         <viewControllerLayoutGuide type="bottom" id="mA8-ve-Mzr"/>
@@ -27,7 +27,7 @@
         <!--MyAppts-->
         <scene sceneID="aPc-Qo-AlA">
             <objects>
-                <viewController id="hNg-k2-Iku" userLabel="MyAppts" sceneMemberID="viewController">
+                <viewController title="Appointments" id="hNg-k2-Iku" userLabel="MyAppts" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n0m-la-u5T"/>
                         <viewControllerLayoutGuide type="bottom" id="hOU-RQ-Qtx"/>
@@ -46,7 +46,7 @@
         <!--HomePageTab-->
         <scene sceneID="oWo-4R-SFp">
             <objects>
-                <viewController title="HomePageTab" id="f7L-q8-AHa" userLabel="HomePageTab" sceneMemberID="viewController">
+                <viewController title="Home " id="f7L-q8-AHa" userLabel="HomePageTab" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M6r-tE-saM"/>
                         <viewControllerLayoutGuide type="bottom" id="Tj6-t1-3i3"/>
