@@ -27,6 +27,9 @@ class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigatio
         imagePicker.sourceType = .PhotoLibrary
         
         
+        documentImage.image = UIImage(named: "CameraIcon")
+        
+        
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(documentTapped))
         recognizer.delegate = self
         self.documentImage.addGestureRecognizer(recognizer)
@@ -66,9 +69,23 @@ class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigatio
     
     
     func documentTapped() {
-        
+        print("document tapped")
+        print(documentImage.image)
+        if documentImage.image != nil{
+            print("presenting document")
+            self.performSegueWithIdentifier("presentDocumentImage", sender: documentImage)
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "presentDocumentImage"){
+            let destination = segue.destinationViewController as? DocumentImageVC
+            destination?.placeholderImage = documentImage.image
+        }
     }
 
+    
+    
     /*
     // MARK: - Navigation
 

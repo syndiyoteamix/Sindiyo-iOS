@@ -13,6 +13,8 @@
 		4E187B861D3CC92200864DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E187B841D3CC92200864DCB /* LaunchScreen.storyboard */; };
 		4E187B8E1D3CD0D300864DCB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E187B8D1D3CD0D300864DCB /* TabBarController.swift */; };
 		4E187B901D3CD3E800864DCB /* ImportDocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */; };
+		4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */; };
+		4E9CEE6F1D3D066200FD66B4 /* DocumentImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */; };
 		F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE41D3CFC0D007CEE3E /* Doctor.swift */; };
 		F3846EE81D3CFC0D007CEE3E /* MedicalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE51D3CFC0D007CEE3E /* MedicalInformation.swift */; };
 		F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE61D3CFC0D007CEE3E /* User.swift */; };
@@ -29,6 +31,8 @@
 		4E187B871D3CC92200864DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E187B8D1D3CD0D300864DCB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportDocVC.swift; sourceTree = "<group>"; };
+		4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentImageVC.swift; sourceTree = "<group>"; };
 		F3846EE41D3CFC0D007CEE3E /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		F3846EE51D3CFC0D007CEE3E /* MedicalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalInformation.swift; sourceTree = "<group>"; };
 		F3846EE61D3CFC0D007CEE3E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			children = (
 				4E187B8D1D3CD0D300864DCB /* TabBarController.swift */,
 				4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */,
+				4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */,
+				4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -190,9 +196,11 @@
 				F3846EEF1D3D02CE007CEE3E /* UserController.swift in Sources */,
 				4E187B7C1D3CC92200864DCB /* AppDelegate.swift in Sources */,
 				F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */,
+				4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */,
 				F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */,
 				F3846EE81D3CFC0D007CEE3E /* MedicalInformation.swift in Sources */,
 				4E187B8E1D3CD0D300864DCB /* TabBarController.swift in Sources */,
+				4E9CEE6F1D3D066200FD66B4 /* DocumentImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
