@@ -15,12 +15,15 @@
 		4E187B901D3CD3E800864DCB /* ImportDocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */; };
 		4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */; };
 		4E9CEE6F1D3D066200FD66B4 /* DocumentImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */; };
+		F372A4DE1D3D6D5800AF848D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372A4DD1D3D6D5800AF848D /* SignUpViewController.swift */; };
 		F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE41D3CFC0D007CEE3E /* Doctor.swift */; };
 		F3846EE81D3CFC0D007CEE3E /* MedicalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE51D3CFC0D007CEE3E /* MedicalInformation.swift */; };
 		F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE61D3CFC0D007CEE3E /* User.swift */; };
 		F3846EED1D3CFC75007CEE3E /* MedicalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EEC1D3CFC75007CEE3E /* MedicalRecord.swift */; };
 		F3846EEF1D3D02CE007CEE3E /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EEE1D3D02CE007CEE3E /* UserController.swift */; };
 		F3846F1B1D3D219A007CEE3E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3846F1A1D3D219A007CEE3E /* Onboarding.storyboard */; };
+		F3846F1F1D3D269F007CEE3E /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846F1E1D3D269F007CEE3E /* LandingViewController.swift */; };
+		F3846F211D3D5B39007CEE3E /* MedicalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846F201D3D5B38007CEE3E /* MedicalInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +37,15 @@
 		4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportDocVC.swift; sourceTree = "<group>"; };
 		4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentImageVC.swift; sourceTree = "<group>"; };
+		F372A4DD1D3D6D5800AF848D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F3846EE41D3CFC0D007CEE3E /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		F3846EE51D3CFC0D007CEE3E /* MedicalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalInformation.swift; sourceTree = "<group>"; };
 		F3846EE61D3CFC0D007CEE3E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F3846EEC1D3CFC75007CEE3E /* MedicalRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalRecord.swift; sourceTree = "<group>"; };
 		F3846EEE1D3D02CE007CEE3E /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		F3846F1A1D3D219A007CEE3E /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		F3846F1E1D3D269F007CEE3E /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		F3846F201D3D5B38007CEE3E /* MedicalInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */,
 				4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */,
 				4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */,
+				F3846F1E1D3D269F007CEE3E /* LandingViewController.swift */,
+				F3846F201D3D5B38007CEE3E /* MedicalInformationViewController.swift */,
+				F372A4DD1D3D6D5800AF848D /* SignUpViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -197,13 +206,16 @@
 			files = (
 				F3846EED1D3CFC75007CEE3E /* MedicalRecord.swift in Sources */,
 				4E187B901D3CD3E800864DCB /* ImportDocVC.swift in Sources */,
+				F3846F1F1D3D269F007CEE3E /* LandingViewController.swift in Sources */,
 				F3846EEF1D3D02CE007CEE3E /* UserController.swift in Sources */,
 				4E187B7C1D3CC92200864DCB /* AppDelegate.swift in Sources */,
+				F3846F211D3D5B39007CEE3E /* MedicalInformationViewController.swift in Sources */,
 				F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */,
 				4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */,
 				F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */,
 				F3846EE81D3CFC0D007CEE3E /* MedicalInformation.swift in Sources */,
 				4E187B8E1D3CD0D300864DCB /* TabBarController.swift in Sources */,
+				F372A4DE1D3D6D5800AF848D /* SignUpViewController.swift in Sources */,
 				4E9CEE6F1D3D066200FD66B4 /* DocumentImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
