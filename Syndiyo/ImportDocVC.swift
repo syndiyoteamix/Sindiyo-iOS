@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIGestureRecognizerDelegate {
+class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIGestureRecognizerDelegate,UITextFieldDelegate {
     
     
     
@@ -73,7 +73,14 @@ class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigatio
             destination?.placeholderImage = documentImage.image
         }
     }
-
+    
+    
+    
+    @IBAction func titleFieldPrimaryActionTriggered(sender: AnyObject) {
+        sender.resignFirstResponder()
+    }
+    
+    
     
     
     /*

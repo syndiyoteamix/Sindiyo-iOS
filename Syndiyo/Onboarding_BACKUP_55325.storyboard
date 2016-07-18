@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jB2-ue-pBh">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aVO-qh-ebK">
+>>>>>>> 144227ea6601989f300e66f5dfb74e7a943a163e
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -87,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="247" y="380"/>
         </scene>
-        <!--Sign In-->
+        <!--Landing View Controller-->
         <scene sceneID="Gn9-Ga-bIg">
             <objects>
-                <viewController id="hPK-56-dUg" sceneMemberID="viewController">
+                <viewController id="hPK-56-dUg" customClass="LandingViewController" customModule="Syndiyo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nic-Lz-WK4"/>
                         <viewControllerLayoutGuide type="bottom" id="Snn-ha-fMp"/>
@@ -250,7 +254,16 @@
                             <constraint firstItem="BX7-hV-8Xm" firstAttribute="leading" secondItem="Ajv-F3-mo3" secondAttribute="leading" constant="20" id="s4O-9P-ibn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Sign In" id="3aU-A5-6pq"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="dpB-wW-kfl" id="RYy-yP-HLx"/>
+                        <outlet property="firtNameTextField" destination="ADa-AN-DS8" id="hZO-ns-tcu"/>
+                        <outlet property="lastNameTextField" destination="txE-xt-SaI" id="HLa-kM-KRz"/>
+                        <outlet property="nextButton" destination="hv0-oK-yVM" id="okV-kA-RdQ"/>
+                        <outlet property="passwordTextField" destination="Dsd-sf-vyX" id="XaL-Ob-VsA"/>
+                        <outlet property="ssnTextField" destination="bEi-Gb-3a0" id="kGr-4o-V95"/>
+                        <outlet property="usernameTextField" destination="yJH-nO-SNC" id="gNo-TZ-cQP"/>
+                        <outlet property="verifyPasswordTextField" destination="Ajd-Cf-LjH" id="eTI-zc-2Ch"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HsK-o7-4iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
