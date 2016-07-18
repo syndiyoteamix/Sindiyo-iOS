@@ -16,24 +16,27 @@ class MedicalRecord {
     var date: NSDate
     var image: UIImage
     
-    init() {
-        self.name = ""
-        self.description = ""
-        self.date = NSDate()
-        self.image = UIImage()
-    }
+//    init() {
+//        self.name = ""
+//        self.description = ""
+//        self.date = NSDate()
+//        self.image = UIImage()
+//    }
     
-    init(name: String, description: String, image: UIImage) {
+    
+    init(name: String, description: String?, date:NSDate, image: UIImage) {
+        
         
         self.name = name
-        self.description = description
+        self.description = description ?? ""
         self.image = image
+        self.date = date
         
-        // Getting date
-        let myDate = NSDate()
-        let calendar = NSCalendar.currentCalendar()
-        let components = calendar.components([.Day , .Month , .Year], fromDate: myDate)
-        self.date = myDate
+//        // Getting date
+//        let myDate = NSDate()
+//        let calendar = NSCalendar.currentCalendar()
+//        let components = calendar.components([.Day , .Month , .Year], fromDate: myDate)
+//        self.date = myDate
         
     }
     
