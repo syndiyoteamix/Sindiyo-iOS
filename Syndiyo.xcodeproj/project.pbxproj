@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				4E187B7B1D3CC92200864DCB /* AppDelegate.swift */,
-				4E187B7F1D3CC92200864DCB /* Main.storyboard */,
+				F3846EDF1D3CFA2F007CEE3E /* UI */,
 				4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */,
 				4E187B821D3CC92200864DCB /* Assets.xcassets */,
 				4E187B841D3CC92200864DCB /* LaunchScreen.storyboard */,
@@ -65,6 +65,14 @@
 				4E187B8D1D3CD0D300864DCB /* TabBarController.swift */,
 			);
 			path = Syndiyo;
+			sourceTree = "<group>";
+		};
+		F3846EDF1D3CFA2F007CEE3E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4E187B7F1D3CC92200864DCB /* Main.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +298,7 @@
 				4E187B8C1D3CC92200864DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
