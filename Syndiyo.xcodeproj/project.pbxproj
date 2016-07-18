@@ -19,6 +19,8 @@
 		4E9CEE6F1D3D066200FD66B4 /* DocumentImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */; };
 		F372A4DE1D3D6D5800AF848D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372A4DD1D3D6D5800AF848D /* SignUpViewController.swift */; };
 		F372A4E21D3D718C00AF848D /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F372A4E11D3D718C00AF848D /* Onboarding.storyboard */; };
+		F372A4E41D3D728C00AF848D /* RequestDocumentCustomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372A4E31D3D728C00AF848D /* RequestDocumentCustomVC.swift */; };
+		F372A4E61D3D729700AF848D /* UIDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372A4E51D3D729700AF848D /* UIDateField.swift */; };
 		F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE41D3CFC0D007CEE3E /* Doctor.swift */; };
 		F3846EE81D3CFC0D007CEE3E /* MedicalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE51D3CFC0D007CEE3E /* MedicalInformation.swift */; };
 		F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE61D3CFC0D007CEE3E /* User.swift */; };
@@ -43,6 +45,8 @@
 		4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentImageVC.swift; sourceTree = "<group>"; };
 		F372A4DD1D3D6D5800AF848D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F372A4E11D3D718C00AF848D /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		F372A4E31D3D728C00AF848D /* RequestDocumentCustomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDocumentCustomVC.swift; sourceTree = "<group>"; };
+		F372A4E51D3D729700AF848D /* UIDateField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDateField.swift; sourceTree = "<group>"; };
 		F3846EE41D3CFC0D007CEE3E /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		F3846EE51D3CFC0D007CEE3E /* MedicalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalInformation.swift; sourceTree = "<group>"; };
 		F3846EE61D3CFC0D007CEE3E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		4E187B7A1D3CC92200864DCB /* Syndiyo */ = {
 			isa = PBXGroup;
 			children = (
+				F372A4E51D3D729700AF848D /* UIDateField.swift */,
 				4E187B7B1D3CC92200864DCB /* AppDelegate.swift */,
 				4E1E3B9A1D3D734B0016FB09 /* Extensions */,
 				F3846EE01D3CFA93007CEE3E /* Models */,
@@ -126,7 +131,11 @@
 		F3846EE21D3CFAA1007CEE3E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				F372A4E31D3D728C00AF848D /* RequestDocumentCustomVC.swift */,
+=======
 				4E1E3B981D3D73450016FB09 /* RequestDocumentCustomVC.swift */,
+>>>>>>> 19312e9e2765771b61cbfed15d264f95ce375807
 				4E187B8D1D3CD0D300864DCB /* TabBarController.swift */,
 				4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */,
 				4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */,
@@ -218,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F372A4E41D3D728C00AF848D /* RequestDocumentCustomVC.swift in Sources */,
 				F3846EED1D3CFC75007CEE3E /* MedicalRecord.swift in Sources */,
 				4E187B901D3CD3E800864DCB /* ImportDocVC.swift in Sources */,
 				F3846F1F1D3D269F007CEE3E /* LandingViewController.swift in Sources */,
@@ -229,6 +239,7 @@
 				F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */,
 				4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */,
 				F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */,
+				F372A4E61D3D729700AF848D /* UIDateField.swift in Sources */,
 				F3846EE81D3CFC0D007CEE3E /* MedicalInformation.swift in Sources */,
 				4E187B8E1D3CD0D300864DCB /* TabBarController.swift in Sources */,
 				F372A4DE1D3D6D5800AF848D /* SignUpViewController.swift in Sources */,
