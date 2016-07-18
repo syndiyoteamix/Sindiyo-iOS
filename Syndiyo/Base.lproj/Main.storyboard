@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J69-6B-Zfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="830" y="618"/>
+            <point key="canvasLocation" x="894" y="404"/>
         </scene>
         <!--MyAppts-->
         <scene sceneID="aPc-Qo-AlA">
@@ -92,6 +92,9 @@
                                     <constraint firstAttribute="width" constant="200" id="lfN-tD-0fD"/>
                                 </constraints>
                                 <state key="normal" title="Request Documents"/>
+                                <connections>
+                                    <segue destination="UvL-d6-C1o" kind="show" id="Xfp-dZ-Ex3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wa2-Au-Tnz">
                                 <rect key="frame" x="87" y="358" width="200" height="50"/>
@@ -120,6 +123,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KA6-Aa-C9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="963.5" y="-648.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WEN-2v-9zx">
+            <objects>
+                <viewController id="UvL-d6-C1o" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8lI-0X-f2H"/>
+                        <viewControllerLayoutGuide type="bottom" id="R1B-sU-1DJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5jQ-Q9-Vea">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Srm-oa-GJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637.5" y="-485.5"/>
         </scene>
         <!--ImportDocumentsVC-->
         <scene sceneID="m1h-Et-MsG">
@@ -186,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qwz-1a-26c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.5" y="-918.5"/>
+            <point key="canvasLocation" x="1527.5" y="-1324.5"/>
         </scene>
         <!--Document ImageVC-->
         <scene sceneID="fGV-0F-FnZ">
@@ -231,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cPB-Qd-VD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2192" y="-1030"/>
+            <point key="canvasLocation" x="2153.5" y="-1506.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bc0-2o-CpW">
