@@ -23,4 +23,27 @@ class MedicalRecord {
         self.image = UIImage()
     }
     
+    init(name: String, description: String, image: UIImage) {
+        
+        self.name = name
+        self.description = description
+        self.image = image
+        
+        // Getting date
+        let myDate = NSDate()
+        let calendar = NSCalendar.currentCalendar()
+        let components = calendar.components([.Day , .Month , .Year], fromDate: myDate)
+        self.date = myDate
+        
+    }
+    
+    func getDateString() -> String {
+        
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateStyle = .LongStyle
+        dateFormatter.timeStyle = .ShortStyle
+        
+        return dateFormatter.stringFromDate(date)
+    }
+    
 }
