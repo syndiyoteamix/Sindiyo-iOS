@@ -26,6 +26,18 @@ class LandingViewController: UIViewController {
         
     }
     
+    @IBAction func ButtonPressed(sender: AnyObject) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateInitialViewController()
+        let application = UIApplication.sharedApplication()
+        let window = application.keyWindow
+        window?.rootViewController = viewController
+
+        
+        
+    }
+    
 
     /*
     // MARK: - Navigation
