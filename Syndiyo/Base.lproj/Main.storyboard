@@ -8,7 +8,7 @@
         <!--MyRecords-->
         <scene sceneID="twr-pj-uFb">
             <objects>
-                <viewController title="Records" id="Xd6-sx-KGG" userLabel="MyRecords" sceneMemberID="viewController">
+                <viewController id="Xd6-sx-KGG" userLabel="MyRecords" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CDa-Gx-dzU"/>
                         <viewControllerLayoutGuide type="bottom" id="mA8-ve-Mzr"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="8qh-ex-5RK"/>
+                    <tabBarItem key="tabBarItem" title="Records" id="8qh-ex-5RK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J69-6B-Zfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -27,7 +27,7 @@
         <!--MyAppts-->
         <scene sceneID="aPc-Qo-AlA">
             <objects>
-                <viewController title="Appointments" id="hNg-k2-Iku" userLabel="MyAppts" sceneMemberID="viewController">
+                <viewController id="hNg-k2-Iku" userLabel="MyAppts" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n0m-la-u5T"/>
                         <viewControllerLayoutGuide type="bottom" id="hOU-RQ-Qtx"/>
@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bth-zC-EVy" userLabel="item 3 "/>
+                    <tabBarItem key="tabBarItem" title="Appointments" id="bth-zC-EVy" userLabel="item 3 "/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ej-Fe-hzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,7 +46,7 @@
         <!--HomePageTab-->
         <scene sceneID="oWo-4R-SFp">
             <objects>
-                <viewController title="Home " id="f7L-q8-AHa" userLabel="HomePageTab" sceneMemberID="viewController">
+                <viewController id="f7L-q8-AHa" userLabel="HomePageTab" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M6r-tE-saM"/>
                         <viewControllerLayoutGuide type="bottom" id="Tj6-t1-3i3"/>
