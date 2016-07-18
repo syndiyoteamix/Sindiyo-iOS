@@ -8,12 +8,29 @@
 
 import UIKit
 
-class ImportDocVC: UIViewController {
+class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIGestureRecognizerDelegate {
+    
+    
+    
+    @IBOutlet weak var documentImage: UIImageView!
+    
+    @IBOutlet weak var saveButton: UIButton!
 
+    @IBOutlet weak var selectPhotoButton: UIButton!
+    
+    let imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        imagePicker.delegate = self
+        imagePicker.sourceType = .PhotoLibrary
+        
+        
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(documentTapped))
+        recognizer.delegate = self
+        self.documentImage.addGestureRecognizer(recognizer)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +38,36 @@ class ImportDocVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    @IBAction func selectPhotoButtonTapped(sender: UIButton) {
+        self.presentViewController(imagePicker, animated: true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        picker.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        self.documentImage.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        picker.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    @IBAction func saveButtonTapped(sender: UIButton) {
+    }
+    
+    
+    func documentTapped() {
+        
+    }
 
     /*
     // MARK: - Navigation
