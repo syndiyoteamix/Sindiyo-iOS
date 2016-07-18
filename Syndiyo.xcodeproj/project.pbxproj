@@ -14,6 +14,7 @@
 		4E187B8E1D3CD0D300864DCB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E187B8D1D3CD0D300864DCB /* TabBarController.swift */; };
 		4E187B901D3CD3E800864DCB /* ImportDocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */; };
 		4E1E3B921D3D61E10016FB09 /* RequestDocumentCustomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1E3B911D3D61E10016FB09 /* RequestDocumentCustomVC.swift */; };
+		4E1E3B951D3D695B0016FB09 /* UIDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1E3B941D3D695B0016FB09 /* UIDateField.swift */; };
 		4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */; };
 		4E9CEE6F1D3D066200FD66B4 /* DocumentImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */; };
 		F3846EE71D3CFC0D007CEE3E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3846EE41D3CFC0D007CEE3E /* Doctor.swift */; };
@@ -34,6 +35,7 @@
 		4E187B8D1D3CD0D300864DCB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		4E187B8F1D3CD3E800864DCB /* ImportDocVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportDocVC.swift; sourceTree = "<group>"; };
 		4E1E3B911D3D61E10016FB09 /* RequestDocumentCustomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDocumentCustomVC.swift; sourceTree = "<group>"; };
+		4E1E3B941D3D695B0016FB09 /* UIDateField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDateField.swift; sourceTree = "<group>"; };
 		4E9CEE6C1D3D040500FD66B4 /* HomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		4E9CEE6E1D3D066200FD66B4 /* DocumentImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentImageVC.swift; sourceTree = "<group>"; };
 		F3846EE41D3CFC0D007CEE3E /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				4E187B7B1D3CC92200864DCB /* AppDelegate.swift */,
+				4E1E3B931D3D69420016FB09 /* Extensions */,
 				F3846EE01D3CFA93007CEE3E /* Models */,
 				F3846EE31D3CFB0E007CEE3E /* Model Controllers */,
 				F3846EE21D3CFAA1007CEE3E /* View Controllers */,
@@ -83,6 +86,14 @@
 				4E187B871D3CC92200864DCB /* Info.plist */,
 			);
 			path = Syndiyo;
+			sourceTree = "<group>";
+		};
+		4E1E3B931D3D69420016FB09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E3B941D3D695B0016FB09 /* UIDateField.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		F3846EDF1D3CFA2F007CEE3E /* UI */ = {
@@ -202,6 +213,7 @@
 				4E187B901D3CD3E800864DCB /* ImportDocVC.swift in Sources */,
 				F3846EEF1D3D02CE007CEE3E /* UserController.swift in Sources */,
 				4E187B7C1D3CC92200864DCB /* AppDelegate.swift in Sources */,
+				4E1E3B951D3D695B0016FB09 /* UIDateField.swift in Sources */,
 				F3846EE91D3CFC0D007CEE3E /* User.swift in Sources */,
 				4E9CEE6D1D3D040500FD66B4 /* HomePageVC.swift in Sources */,
 				4E1E3B921D3D61E10016FB09 /* RequestDocumentCustomVC.swift in Sources */,
