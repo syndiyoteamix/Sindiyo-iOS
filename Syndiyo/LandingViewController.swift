@@ -26,7 +26,7 @@ class LandingViewController: UIViewController {
         
     }
     
-    @IBAction func ButtonPressed(sender: AnyObject) {
+    @IBAction func ButtonPre ssed(sender: AnyObject) {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateInitialViewController()
