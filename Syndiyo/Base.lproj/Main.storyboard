@@ -133,7 +133,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="40V-nK-OA9" userLabel="document">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="40V-nK-OA9" userLabel="document">
                                 <rect key="frame" x="37" y="83" width="300" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="62H-cv-A7n"/>

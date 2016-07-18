@@ -26,9 +26,7 @@ class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigatio
         imagePicker.delegate = self
         imagePicker.sourceType = .PhotoLibrary
         
-        
         documentImage.image = UIImage(named: "CameraIcon")
-        
         
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(documentTapped))
         recognizer.delegate = self
@@ -57,21 +55,13 @@ class ImportDocVC: UIViewController,UIImagePickerControllerDelegate, UINavigatio
     }
     
     
-   
-    
-    
-    
-    
-    
-    
     @IBAction func saveButtonTapped(sender: UIButton) {
     }
     
     
     func documentTapped() {
-        print("document tapped")
-        print(documentImage.image)
-        if documentImage.image != nil{
+  
+        if documentImage.image != UIImage(named:"CameraIcon"){
             print("presenting document")
             self.performSegueWithIdentifier("presentDocumentImage", sender: documentImage)
         }
