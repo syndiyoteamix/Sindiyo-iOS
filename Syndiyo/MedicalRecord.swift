@@ -17,7 +17,10 @@ class MedicalRecord {
     var image: UIImage
     
     init() {
-        
+        self.name = ""
+        self.description = ""
+        self.date = NSDate()
+        self.image = UIImage()
     }
     
 }
